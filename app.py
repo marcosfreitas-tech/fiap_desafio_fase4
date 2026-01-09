@@ -375,7 +375,7 @@ def main():
         with st.expander('Informações', expanded=True):
             input_df, meta_paciente = collect_user_input()
 
-        if st.button("Calcular Probabilidade"):
+        if st.button("Calcular Probabilidade", type='primary'):
 
             st.toast('Relatório para download disponível.', icon='🖨️', duration='short')
 
