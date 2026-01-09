@@ -343,7 +343,7 @@ def main():
             ### :blue[Metodologia (notebooks e escolha do modelo)]
             - Exploração e limpeza dos dados em notebook: análise de distribuição das variáveis, tratamento de valores faltantes e criação do IMC.
             - Engenharia de atributos: tratamento de variáveis contínuas para categorias interpretáveis e normalização de nomes para o idioma português.
-            - Treinamento/validação: comparação de RandomForest (com/sem SMOTE), LightGBM e XGBoost ([acesse o notebook](https://link.com)), medindo acurácia, F1-macro e recall para classes de risco. O XGBoost liderou em acurácia e recall de risco, mantendo desempenho parecido entre treino e validação (sem overfitting).
+            - Treinamento/validação: comparação de RandomForest (com/sem SMOTE), LightGBM e XGBoost ([acesse o notebook](https://github.com/marcosfreitas-tech/fiap_desafio_fase4/blob/master/analise/model_comparison.ipynb)), medindo acurácia, F1-macro e recall para classes de risco. O XGBoost liderou em acurácia e recall de risco, mantendo desempenho parecido entre treino e validação (sem overfitting).
             - Seleção do modelo: XGBoost (Acurácia: 96,2% - F1-macro: 96,1% - Recall risco: 99,36%) serializado (pipeline + label encoder) e carregado pelo app para predições em produção.
 
             ### :blue[A solução em produção (Streamlit)]
