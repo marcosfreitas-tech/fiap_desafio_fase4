@@ -11,4 +11,4 @@ jupyter
 plotly
 dill
 openpyxl
-altair<5
+altair
